@@ -1,6 +1,6 @@
 import { Macondo } from "next/font/google";
 import "./globals.css";
-import { Header } from "./components/UI/Header";
+import { Header } from "@/components/UI/Header";
 
 const macondo = Macondo({
 	weight: ["400"],
