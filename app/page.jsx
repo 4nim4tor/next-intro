@@ -1,13 +1,14 @@
-import { ScreenSection } from "@/components/base/ScreenSection";
-import { BoxSection } from "@/index/BoxSection";
+import { ScreenSection } from "@/components/base/Sections";
+// import BoxSection from "./(pages)/index/components/sections/BoxSection";
+import BoxSection from "@/index/BoxSection";
 
 export default function HomePage() {
-	return (
-		<>
-			<ScreenSection className="bg-amber-500">
-				<h1 className="text-7xl">Main Page</h1>
-			</ScreenSection>
-			<BoxSection />
-		</>
-	);
+  return (
+    <>
+      <ScreenSection className="bg-orange-800">
+        <h1 className="text-7xl">Main page</h1>
+      </ScreenSection>
+      <BoxSection />
+    </>
+  );
 }
